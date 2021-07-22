@@ -1,0 +1,2 @@
+console.log('Hello World') // When open the DevTools on the tab console, with this line will apear a 'Hello World' message
+alert('Hello World') //Shows an alert, with the 'Hello World' text and a 'OK' Button
