@@ -41,7 +41,7 @@ in the body tag you can use some of the following tags:
 
 
 ---
-Text tags:
+## Text tags:
 ---
 
 ```html
@@ -108,6 +108,64 @@ Text tags:
   </body>
 </html>
 ```
-<p style='color: orange'>This text is colored</p>
+<p style='color: orange'>This text is colored</p> (in github you might not see the colors, but you can test it by yourself)
 
 You can add any color, replacing the orange value for any color you want, As well as combine any of the other tags from above
+
+Here is an example: 
+```html
+<html>
+  <body>
+      <p style='color: red'>This text is <b><sup>colored and bold</sup></b> and we can also make it <i>Italic</i></p>
+    </body>
+</html>
+```
+
+<p style='color: red'>This text is <b><sup>colored and bold</sup></b> and we can also make it <i>Italic</i></p>
+
+
+---
+Image tags:
+---
+
+Adding an image is always a great choice to your website
+
+```html
+<html>
+  <body>
+      <img scr='https://cdn-icons-png.flaticon.com/512/25/25231.png'>Here is an image from the github logo</img>
+      <!-- Important to note that the image, this way is going to be displayed as the original size-->
+  </body>
+</html>
+```
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+
+Here is an image from the github logo
+
+```html
+<html>
+  <body>
+      <img scr='https://cdn-icons-png.flaticon.com/512/25/25231.png' width='100px' height='100px'>Here is an image from the github logo</img>
+      <!-- This image is a 100px by 100px image using the values **width** and **height** you can set a dimension to the image-->
+      <!-- In this example the image will be 100px by 100px-->
+  </body>
+</html>
+```
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="100" height="100" />
+
+Here is an image from the github logo
+
+---
+"Link" tags:
+---
+To make a text clickable, we have to use a special tag called: "a"
+
+```html
+<html>
+    <a href="http://github.com/rubencosta13">This goes to RubenCosta13`s Github page</a>
+</html>
+```
+<a href="http://github.com/rubencosta13">This goes to RubenCosta13`s Github page</a>
+
+There are a lot of diferent combinations, you can even use [Text Formating](#markdown-header-text-tags)
+
