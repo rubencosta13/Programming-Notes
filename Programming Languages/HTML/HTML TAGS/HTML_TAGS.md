@@ -167,5 +167,14 @@ To make a text clickable, we have to use a special tag called: "a"
 ```
 <a href="http://github.com/rubencosta13">This goes to RubenCosta13`s Github page</a>
 
-There are a lot of diferent combinations, you can even use [Text Formating](#markdown-header-text-tags)
+There are a lot of diferent combinations, you can even use [Text Formating](#text-tags)
 
+
+```html
+<html>
+    <a href="mailto:rubenlavoscosta@gmail.com">Clicking this link you will send me an email</a>
+    <!-- This sends an email thanks to the word: mailto: (If we divide the word mailto into two words we will get Mail to which is the function of this word) -->
+</html>
+```
+
+<a href="mailto:rubenlavoscosta@gmail.com">Clicking this link you will send me an email</a>
