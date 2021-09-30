@@ -10,14 +10,26 @@ Lets get started
 ---
 Header:
 ---
-Using the tag "h" with a number between 1 and 6 you will be able to make headers with diferent sizes
-# This is an H1
 
+```html
+<html>
+  <body>
+      <h1>I'm a Header (h1)</h1>
+      <h2>I'm a Header (h2)</h2>
+      <h3>I'm a Header (h3)</h3>
+      <h4>I'm a Header (h4)</h4>
+      <h5>I'm a Header (h5)</h5>
+      <h6>I'm a Header (h6)</h6>
+  </body>
+</html>
+```
+<h1>I'm a Header (h1)</h1>
+<h2>I'm a Header (h2)</h2>
+<h3>I'm a Header (h3)</h3>
+<h4>I'm a Header (h4)</h4>
+<h5>I'm a Header (h5)</h5>
+<h6>I'm a Header (h6)</h6>
 
-## This is an H2
-
-
-###### This is an H6
 
 
 ---
@@ -78,3 +90,24 @@ Text tags:
 </html>
 ```
 <p>This text is <sub>inferior to the line</sub></p>
+
+```html
+<html>
+  <body>
+      <p>This text is <b>bold</b></p>
+  </body>
+</html>
+```
+<p>This text is <b>bold</b></p>
+
+
+```html
+<html>
+  <body>
+      <p style='color: orange'>This text is colored</p>
+  </body>
+</html>
+```
+<p style='color: orange'>This text is colored</p>
+
+You can add any color, replacing the orange value for any color you want, As well as combine any of the other tags from above
