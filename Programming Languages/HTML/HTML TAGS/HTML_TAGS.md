@@ -147,7 +147,6 @@ Here is an image from the github logo
   <body>
       <img scr='https://cdn-icons-png.flaticon.com/512/25/25231.png' width='100px' height='100px'>Here is an image from the github logo</img>
       <!-- This image is a 100px by 100px image using the values **width** and **height** you can set a dimension to the image-->
-      <!-- In this example the image will be 100px by 100px-->
   </body>
 </html>
 ```
